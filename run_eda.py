@@ -18,7 +18,7 @@ plt.rcParams.update({
     'font.size': 11, 'axes.titlesize': 13, 'axes.titleweight': 'bold'
 })
 
-# Chart 1 — Delay Overview Donut
+# Chart 1 — Delay Overview
 print('Chart 1: Delay Overview...')
 delayed = df['IS_DELAYED'].sum(); on_time = len(df) - delayed
 fig, ax = plt.subplots(figsize=(6,6))

@@ -5,7 +5,6 @@ print('Loading Indian flight data...')
 df = pd.read_csv('data/flights.csv', low_memory=False)
 print(f'Loaded {len(df):,} rows')
 
-# Clean
 df = df[df['CANCELLED'] == 0]
 df = df[df['DIVERTED'] == 0]
 df = df.dropna(subset=['DEPARTURE_DELAY', 'ARRIVAL_DELAY'])
