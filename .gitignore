@@ -1,0 +1,19 @@
+# Data files (too large for GitHub)
+data/flights.csv
+data/flights_processed.csv
+
+# Model files
+data/models/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
