@@ -167,4 +167,3 @@ with tab4:
             st.pyplot(fig); plt.close()
 
 st.markdown('---')
-st.markdown("<p style='text-align:center;color:#ADB5BD;font-size:12px;'>Data: DGCA India 2024 | Built with Python & Streamlit | Portfolio Project for Aviation Analytics Roles</p>",unsafe_allow_html=True)
